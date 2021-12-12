@@ -6,15 +6,11 @@ import lombok.NonNull;
 
 @Data
 @Builder
-public class Results {
+public class _Competitor {
 
   @NonNull
   private long id;
   @NonNull
-  private long user_id;
-  @NonNull
-  private Disciplines name;
-  @NonNull
-  private double result;
+  private String name;
 
 }

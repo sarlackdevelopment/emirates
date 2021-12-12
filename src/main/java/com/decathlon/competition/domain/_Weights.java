@@ -6,12 +6,12 @@ import lombok.NonNull;
 
 @Data
 @Builder
-public class Weights {
+public class _Weights {
 
   // ( from the proposed article's table https://en.wikipedia.org/wiki/Decathlon, according to formula  y = a * |x - b|^c )
 
   @NonNull
-  private Disciplines discipline;
+  private _Disciplines discipline;
 
   @NonNull
   private double weightA;
