@@ -9,12 +9,6 @@
       <li class="nav-item">
         <a class="nav-link" href="/flight">flight</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/weights">weights</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/calculate">calculate</a>
-      </li>
     </ul>
   </div>
 </nav>

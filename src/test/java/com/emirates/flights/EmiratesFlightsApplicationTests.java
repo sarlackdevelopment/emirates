@@ -29,35 +29,14 @@ class EmiratesFlightsApplicationTests {
 	void contextLoadsMain() throws Exception {
 			this.mockMvc.perform(get("/"))
 					.andDo(print()).andExpect(status().isOk())
-					.andExpect(content().string(containsString("It is the Decathlon application. Join us!")));
+					.andExpect(content().string(containsString("Emirates")));
 	}
 
 	@Test
 	void contextLoadsResults() throws Exception {
-		this.mockMvc.perform(get("/results"))
+		this.mockMvc.perform(get("/flight"))
 				.andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("Results of competitions")));
-	}
-
-	@Test
-	void contextLoadsWeights() throws Exception {
-		this.mockMvc.perform(get("/weights"))
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("Coefficents (weights) of disciplines")));
-	}
-
-	@Test
-	void contextLoadsCalculate() throws Exception {
-		this.mockMvc.perform(get("/calculate"))
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("Podium positions")));
-	}
-
-	@Test
-	void contextLoadsDoCalculate() throws Exception {
-		this.mockMvc.perform(post("/calculate"))
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(xpath("//div[@id='positions_list']/div").nodeCount(3));
+				.andExpect(content().string(containsString("Flight info")));
 	}
 
 }

@@ -35,4 +35,11 @@ public class MainController {
     return "calculate";
   }
 
+  @PostMapping("/calculatePrice")
+  public String calculatePrice(@RequestParam("flightNumber") String flightNumber, Model model) {
+    String price = calculateService.calculatePrice(flightNumber);
+    model.addAttribute("price", price);
+    return "calculate";
+  }
+
 }

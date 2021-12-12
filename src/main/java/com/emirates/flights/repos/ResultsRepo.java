@@ -1,6 +1,5 @@
 package com.emirates.flights.repos;
 
-//import com.emirates.flights.domain.*;
 import com.emirates.flights.domain.ArrivalBoard;
 import org.springframework.stereotype.Component;
 
