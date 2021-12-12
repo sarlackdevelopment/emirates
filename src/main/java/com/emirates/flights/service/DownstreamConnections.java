@@ -1,6 +1,6 @@
-package com.decathlon.competition.service;
+package com.emirates.flights.service;
 
-import com.decathlon.competition.domain.ArrivalBoard;
+import com.emirates.flights.domain.ArrivalBoard;
 import lombok.Data;
 
 @Data

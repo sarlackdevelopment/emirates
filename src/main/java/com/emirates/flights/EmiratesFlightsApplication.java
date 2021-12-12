@@ -1,13 +1,13 @@
-package com.decathlon.competition;
+package com.emirates.flights;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CompetitionApplication {
+public class EmiratesFlightsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CompetitionApplication.class, args);
+		SpringApplication.run(EmiratesFlightsApplication.class, args);
 	}
 
 }

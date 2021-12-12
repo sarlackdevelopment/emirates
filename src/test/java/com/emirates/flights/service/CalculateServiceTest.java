@@ -1,15 +1,15 @@
-package com.decathlon.competition.service;
+package com.emirates.flights.service;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import com.decathlon.competition.domain._Competitor;
-import com.decathlon.competition.domain._Disciplines;
-import com.decathlon.competition.domain._Results;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
+//import static org.junit.jupiter.api.Assertions.*;
+//
+//import com.decathlon.competition.domain._Competitor;
+//import com.decathlon.competition.domain._Disciplines;
+//import com.decathlon.competition.domain._Results;
+//import java.util.Arrays;
+//import java.util.HashMap;
+//import java.util.List;
+//import java.util.Map;
+//import java.util.stream.Collectors;
 import org.junit.jupiter.api.Test;
 
 class CalculateServiceTest {

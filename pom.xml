@@ -8,11 +8,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.decathlon</groupId>
-	<artifactId>competition</artifactId>
+	<groupId>com.emirates</groupId>
+	<artifactId>flights</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>competition</name>
-	<description>Decathlon's competition</description>
+	<description>Emirates flights</description>
 
 	<properties>
 		<java.version>9</java.version>

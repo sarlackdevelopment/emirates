@@ -1,9 +1,8 @@
-package com.decathlon.competition.domain;
+package com.emirates.flights.domain;
 
 import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
-//import lombok.Synchronized;
 
 @Data
 @Builder
